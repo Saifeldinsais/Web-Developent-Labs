@@ -1,0 +1,113 @@
+/* Container */
+.app-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Form section */
+.form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.form input,
+.form textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form button:hover {
+  background-color: #005fcc;
+}
+
+/* Movie list */
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-btn {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: #e04343;
+}
+
+/* Rating */
+.star-rating {
+  display: inline-flex;
+  gap: 5px;
+  background-color: #007bff;
+  border-radius:20px;
+  
+}
+
+.star {
+  
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+.star.filled {
+  color: gold;
+}
+
+/* Comment display */
+.movie-comment {
+  margin-top: 8px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Empty message */
+.empty-msg {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
